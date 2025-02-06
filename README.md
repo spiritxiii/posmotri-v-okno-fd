@@ -1,1 +1,1 @@
-https://github.com/spiritxiii/ono-tebe-nado-fd/
+https://github.com/spiritxiii/posmotri-v-okno-fd/
