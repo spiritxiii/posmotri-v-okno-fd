@@ -128,6 +128,7 @@ ol {
   border: 1px solid currentColor;
   color: inherit;
   padding: 6px 0;
+  cursor: pointer;
 }
 
 .button:active {
@@ -137,15 +138,10 @@ ol {
 .search-form__submit-button {
   align-self: end;
   inline-size: 194px;
-  cursor: pointer;
-}
-
-.hover-line:hover {
-  text-decoration: underline;
 }
 
 .search-form__label:has(:focus-visible):not(:active),
-.search-form__submit-button:focus-visible {
+.button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
@@ -258,6 +254,12 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+}
+
+.button:hover,
+.search-form__label:hover .search-form__label-text,
+.content__card-link:hover .content__video-card-description-container {
+  text-decoration: underline;
 }
 
 .content__video-card-title {
